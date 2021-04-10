@@ -41,7 +41,7 @@ namespace itSTEP_fig_znaet_kakoi.Classes
                 if (done)
                     break;
                 Console.WriteLine("===================================================");
-                for (int ctr = Driver.GetInvocationList().Length - 1, i = Cars.Count-1; i >= -1; ctr--,i--)
+                for (int ctr = Driver.GetInvocationList().Length - 1, i = Cars.Count-1; i >= 0; ctr--,i--)
                 {
                     var temp = Driver.GetInvocationList();
                     temp[i].DynamicInvoke();
